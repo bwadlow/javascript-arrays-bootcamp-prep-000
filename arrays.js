@@ -9,6 +9,14 @@ function destructivelyAddElementToBeginningOfArray(arr, elem) {
   arr.unshift(elem)
   return arr
 }
-
+function addElementToEndOfArray(arr, elem) {
+  let newArr= [...arr, elem]
+  return newArr
+  }
+  
+function destructivelyAddElementToEndOfArray(arr, elem) {
+  arr.push(elem)
+  return arr
+} 
 
 
